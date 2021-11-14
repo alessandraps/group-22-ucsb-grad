@@ -1,0 +1,22 @@
+---
+title: "Group 22 UCSB domestic grad enrollment"
+author: "Alessandra Puig-Santana
+Michelle Geldin "
+date: "11/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Attaching packages
+library(tidyverse)
+library(here)
+
+```
+
+```{r}
+# Read in data
+ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
