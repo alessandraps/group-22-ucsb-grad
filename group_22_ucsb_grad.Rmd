@@ -25,9 +25,13 @@ ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment, fill = ethn
   geom_col(position = "fill") +
   labs(x = "Year",
        y = "Domestic Graduate Enrollment",
-       title = "Graduate Student Enrollment from 2008-2019")
+       title = "Graduate Student Enrollment from 2008-2019") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
 ``` 
+Figure 1:
 
+The ethnicity of "White" is seen as the largest makeup of Domestic Graduate Student enrollment at UCSB throughout all years (2008 - 2019). Visual trends evident across the years include the decrease in counts of ethnicity "Unknown" and "Other", as well as an increase in counts of ethnicity "American Indian/ Alaskan", "Asian/ Pacific Islander", "Black/ African American", "Chicano", E. Indian/ Pakistani", "Filipino", and "Latino". While minority groups increased in count between 2008 and 2019, the decrease in "Unknown" and "Other" groups may produce a perceived ethnic increase for specific groups. Thus, we cannot successfully infer that minority population proportions increased in 2019 relative to 2008 levels without further investigating the data, as minority groups may have been present in the "Unknown" or "Other" categories earlier on in the data collection process.
 
 
 
