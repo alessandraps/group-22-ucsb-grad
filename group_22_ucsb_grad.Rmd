@@ -36,3 +36,6 @@ ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment, fill = ethn
 
 
 
+### Data Citation:
+
+https://bap.ucsb.edu/institutional-research/campus-profiles
