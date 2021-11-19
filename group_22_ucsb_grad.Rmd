@@ -4,6 +4,9 @@ author: "Alessandra Puig-Santana, Michelle Geldin "
 date: "11/14/2021"
 output: html_document
 ---
+### Overview
+
+The following report will explore the changes in ethnicity composition for UCSB graduate students between the years 2008 and 2019. Data utilized for this exploration and analysis are derived from the UCSB Office of Budget and Planning. This data provides a wide amount of information including housing status, class level, grade point average, ethnicity percentages, and more. The data we used is limited to the numbers of graduate students per year and percentage of ethnic makeup per class per year.
 
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE }
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
